@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build / test output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Personal working notes (not published). Phase exit artifacts live in phase0/, phase1/, …
+docs/
+
+# Local IDE noise (keep committed agent rules under .cursor/rules/)
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
